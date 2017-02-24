@@ -1,0 +1,117 @@
+*{
+    margin: 5px 0px 0px 10px;
+    cursor: default;
+}
+table{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;   width: 100%;  text-align: left;    border-collapse: collapse; text-align: center;
+   
+}
+h1{
+    margin-left: 20px;
+}
+td{
+     padding: 18px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; 
+     
+}
+tr{
+    border: black 1px solid; text-align: center;
+}
+th{
+      font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; text-align: center;
+}
+
+td:hover{
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+}
+
+header{
+     display: table;
+}
+header h1{
+    float: left;
+}
+.usuario{
+    float: right;
+}
+
+.btnDatos a{
+    clear: both;
+}
+.nmbUser{
+    background-color: azure;
+    font-family: cursive;
+}
+button{
+    font-size:12px;
+    font-family:Helvetica;
+    font-weight:bold;
+    color:black;
+    background-color:aquamarine;
+    border:0px;
+    width:120px;
+    height:25px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.contLogin{
+    text-align: center;
+}
+h1{
+    font-family:  monospace;
+    margin-bottom: 12px;
+    
+}
+.login{
+    background-color: lightcyan;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+        .FN{
+                display:none;
+        }
+
+}
+@media (max-width:1024px) {
+        .FN, .LI, .IE{
+                display:none;
+        }
+
+}
+
+@media (max-width:768px) {
+        .FN,.LI,.IE,.IP,.EM{
+                display:none;
+        }
+
+}
+
+@media (max-width:500px) {
+        .FN, .LI, .EM, .NO, .AP, .IE, .RU,IP{
+                display:none;
+        }
+
+}
+.crear{
+    float: right;
+}
+
+h1{float: left}
+
+#ilo{
+    background-color: cyan;
+    color: aqua;
+    text-align: center;
+}
+
+.asd{
+    font-size: 70px;
+}
+
